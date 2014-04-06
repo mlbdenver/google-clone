@@ -1,0 +1,190 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* ------------BEGIN MAIN STYLING--------------------- */
+
+html, body {
+  height:100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  padding: 0 0 50px 0;
+}
+  body {
+  width: 100%;
+  font-family:Arial,sans-serif;
+  font-size:13px;
+  color: #515151;
+  text-align: center;
+}
+
+header {
+  max-width: 100%;
+  margin-top:10px;
+}
+a {
+  text-decoration: none;
+    color: #6e6666;
+}
+a:hover {
+  text-decoration: underline;
+}
+#nav {
+  float:right;
+  margin-right:20px;
+  margin-top: 10px;
+}
+
+#signin {
+  height:30px;
+  width:71px;
+  background-color: #4285f4;
+  padding:7px 14px;
+  border-radius: 2px;
+  color: white;
+  font-weight: bold;
+}
+
+#icon img{
+  height:24px;
+  width:24px;
+  vertical-align: middle;
+}
+
+#nav li {
+  display:inline;
+  margin: 10px 7px;
+}
+#doodle {
+  padding-top:184px;
+  width:100%;
+}
+#doodle img {
+  display:block;
+  height: 94px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:24px;
+}
+
+.search_area {
+  width:100%;
+  display:inline-block;
+}
+
+.search_area form .searchbox {
+ width:520px;
+  height:26px;
+  border:1px #d3d3d3 solid;
+  background: url(images/microphone.png) right center no-repeat;
+  background-size: 25px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 18px;
+}
+
+.search_area form .searchbox:hover {
+  border:1px #808080 solid;
+}
+.submitbutton {
+background-color: #f7f7f7;
+border:1px #d3d3d3 solid;
+border-radius: 3px;
+margin:auto;
+color: #515151;
+font-family: Arial, sans-serif !important;/*not sure why this didn't cascade*/
+font-weight: bold;
+font-size:11px;
+margin-left: 8px;
+margin-right: 8px;
+padding:6px 6px;
+}
+
+.submitbutton:hover{
+    -webkit-box-shadow: 
+    0px 1px 1px 0px;
+    box-shadow:
+    0px 1px 1px 0px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  background-color:#f7f7f7;
+  height: 50px;
+  border: 1px #e3e3e3 solid;
+  margin-top: -50px;
+}
+
+#footerleft li {
+  display:inline;
+  color: #6e6666;
+  margin-left:12px;
+  margin-right:12px;
+
+}
+#footerright li{
+  display:inline;
+  color: #6e6666;
+  margin-left:12px;
+  margin-right:12px;
+}
+#footerleft {
+  float:left;
+  margin-top: 16px;
+}
+#footerright {
+  float:right;
+  margin-top: 16px;
+}
